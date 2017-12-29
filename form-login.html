@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <title>Signin Template for Bootstrap</title>
+  </head>
+
+  <body>
+    <div id="frame-header">
+        <div id="logo">
+          <!-- logo-perusahaan -->
+          <a href="index.html"><img src="image/brand-nav.png" alt="Closest Logo"></a>
+          <!-- End logo-perusahaan -->
+        </div>
+      <button onclick="window.open('index.html', '_self')">Back</button>
+    </div>
+    <!-- Section -->
+    <div class="container">
+      <form class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="login()">Sign in</button>
+        <button class="btn btn-lg btn-warning btn-block" onclick="cancel()">Cancel</button>
+      </form>
+    </div> 
+    <!-- End Section -->
+    
+  </body>
+</html> 
